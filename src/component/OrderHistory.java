@@ -1,4 +1,6 @@
 package component;
 
-public class OrderHistory {
+import javafx.scene.layout.AnchorPane;
+
+public class OrderHistory extends AnchorPane {
 }
