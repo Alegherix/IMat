@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment=" 15may">
-      <change beforePath="$PROJECT_DIR$/src/resources/view/default_view3.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/view/default_view3.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/view/List_item.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/view/List_item.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/view/product_view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/view/product_view.fxml" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -65,13 +67,23 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/application/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" column="102" selection-start-line="15" selection-start-column="102" selection-end-line="15" selection-end-column="102" />
+            <state relative-caret-position="375">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/resources/view/List_item.fxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="11" column="207" selection-start-line="11" selection-start-column="207" selection-end-line="11" selection-end-column="207" />
+            </state>
+          </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -83,11 +95,31 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/resources/view/default_view3.fxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+            <state relative-caret-position="66">
+              <caret line="3" column="41" lean-forward="true" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
+            </state>
+          </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/resources/view/customer_data.fxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/resources/view/product_view.fxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="12" column="68" lean-forward="true" selection-start-line="12" selection-start-column="68" selection-end-line="12" selection-end-column="68" />
             </state>
           </provider>
           <provider editor-type-id="JavaFX-Scene-Builder" />
@@ -124,9 +156,11 @@
         <option value="$PROJECT_DIR$/src/resources/view/Controller.java" />
         <option value="$USER_HOME$/S C H O O L/Grafisk konstruktion/module-info.java" />
         <option value="$PROJECT_DIR$/src/module-info.java" />
-        <option value="$PROJECT_DIR$/src/resources/view/default_view3.fxml" />
         <option value="$PROJECT_DIR$/src/controller/Controller.java" />
         <option value="$PROJECT_DIR$/src/application/Main.java" />
+        <option value="$PROJECT_DIR$/src/resources/view/default_view3.fxml" />
+        <option value="$PROJECT_DIR$/src/resources/view/List_item.fxml" />
+        <option value="$PROJECT_DIR$/src/resources/view/product_view.fxml" />
       </list>
     </option>
   </component>
@@ -336,7 +370,7 @@
       <workItem from="1557653597126" duration="2671000" />
       <workItem from="1557673407240" duration="1219000" />
       <workItem from="1557828818014" duration="4292000" />
-      <workItem from="1557907730656" duration="7315000" />
+      <workItem from="1557907730656" duration="7499000" />
     </task>
     <task id="LOCAL-00001" summary="Grundläggande design klar för gruppen.">
       <created>1557152924250</created>
@@ -387,16 +421,24 @@
       <option name="project" value="LOCAL" />
       <updated>1557926693006</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary=" 15may">
+      <created>1557927169938</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1557927169938</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23459000" />
+    <option name="totallyTimeSpent" value="23643000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="29" width="1938" height="1060" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.18313642" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.18313642" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" />
       <window_info id="Designer" order="3" />
@@ -405,7 +447,7 @@
       <window_info id="UI Designer" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26091826" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.26091826" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -544,16 +586,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/application/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="102" selection-start-line="15" selection-start-column="102" selection-end-line="15" selection-end-column="102" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/controller/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
@@ -561,18 +593,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/application/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/view/List_item.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="207" selection-start-line="11" selection-start-column="207" selection-end-line="11" selection-end-column="207" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/view/default_view3.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="41" lean-forward="true" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/view/customer_data.fxml">
-      <provider editor-type-id="text-editor">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/view/default_view3.fxml">
+    <entry file="file://$PROJECT_DIR$/src/resources/view/product_view.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        <state relative-caret-position="264">
+          <caret line="12" column="68" lean-forward="true" selection-start-line="12" selection-start-column="68" selection-end-line="12" selection-end-column="68" />
         </state>
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder" />
@@ -618,7 +676,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.8 (2)</last-edited>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
