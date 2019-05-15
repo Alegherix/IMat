@@ -12,9 +12,9 @@
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <BorderPane layoutX="-11.0" layoutY="-8.0" prefHeight="732.0" prefWidth="1300.0">
+      <BorderPane layoutX="-11.0" layoutY="-8.0" prefHeight="728.0" prefWidth="1300.0">
          <top>
             <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="184.0" prefWidth="1280.0" style="-fx-background-color: #DDDDDD;" BorderPane.alignment="CENTER">
                <children>
@@ -134,7 +134,7 @@
                </children></AnchorPane>
          </left>
          <right>
-            <AnchorPane prefHeight="0.0" prefWidth="235.0" BorderPane.alignment="CENTER" />
+            <AnchorPane prefHeight="559.0" prefWidth="235.0" BorderPane.alignment="CENTER" />
          </right>
       </BorderPane>
    </children>

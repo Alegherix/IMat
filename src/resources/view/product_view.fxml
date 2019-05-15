@@ -2,6 +2,7 @@
 
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
@@ -11,45 +12,46 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="540.0" prefWidth="810.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <ImageView fitHeight="414.0" fitWidth="415.0" layoutX="18.0" layoutY="64.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="productImage" fitHeight="342.0" fitWidth="401.0" layoutX="34.0" layoutY="144.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../pictogram/pineapple.png" />
+            <Image url="@../imat/images/product_16.jpg" />
          </image>
       </ImageView>
-      <Label layoutX="451.0" layoutY="46.0" text="PRODUKTVY">
+      <Label fx:id="productTitle" layoutX="196.0" layoutY="21.0" text="PRODUKTNAMN">
          <font>
             <Font size="56.0" />
          </font>
       </Label>
-      <Text layoutX="480.0" layoutY="166.0" strokeType="OUTSIDE" strokeWidth="0.0" text="blablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablabla" wrappingWidth="289.3366394042969">
+      <Text fx:id="productInfo" layoutX="483.0" layoutY="195.0" strokeType="OUTSIDE" strokeWidth="0.0" text="blablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablabla" wrappingWidth="289.3366394042969">
          <font>
             <Font size="20.0" />
          </font>
       </Text>
-      <Label layoutX="625.0" layoutY="300.0" text="10:95" textFill="#16a659">
+      <Label fx:id="priceTag" layoutX="560.0" layoutY="338.0" text="10:95" textFill="#16a659">
          <font>
-            <Font name="System Bold Italic" size="25.0" />
+            <Font name="System Bold Italic" size="40.0" />
          </font>
       </Label>
-      <Label layoutX="695.0" layoutY="300.0" text="kr/ styck">
+      <Label layoutX="675.0" layoutY="349.0" text="kr">
          <font>
             <Font size="25.0" />
          </font>
       </Label>
-      <Button layoutX="689.0" layoutY="434.0" mnemonicParsing="false" text="+">
+      <Button fx:id="plusButton" layoutX="682.0" layoutY="409.0" mnemonicParsing="false" text="+">
          <font>
             <Font size="30.0" />
          </font>
       </Button>
-      <Button disable="true" layoutX="515.0" layoutY="434.0" mnemonicParsing="false" prefHeight="66.0" prefWidth="61.0" text="-">
+      <Button fx:id="minusButton" disable="true" layoutX="508.0" layoutY="409.0" mnemonicParsing="false" prefHeight="66.0" prefWidth="61.0" text="-">
          <font>
             <Font size="30.0" />
          </font>
       </Button>
-      <TextField alignment="CENTER_RIGHT" layoutX="588.0" layoutY="434.0" prefHeight="66.0" prefWidth="94.0" promptText="1">
+      <TextField fx:id="quantityField" alignment="CENTER" layoutX="581.0" layoutY="409.0" prefHeight="66.0" prefWidth="94.0" promptText="1">
          <font>
             <Font size="30.0" />
          </font>
       </TextField>
+      <Separator layoutX="466.0" layoutY="317.0" prefHeight="12.0" prefWidth="324.0" />
    </children>
 </AnchorPane>
