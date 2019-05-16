@@ -1,8 +1,11 @@
 package controller;
 
+import component.CustomerDataHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.*;
+import javafx.scene.layout.StackPane;
+
 import javax.swing.text.html.ImageView;
 import javax.xml.soap.Text;
 import java.net.URL;
@@ -13,6 +16,9 @@ import java.util.ResourceBundle;
  */
 public class Controller implements Initializable {
 
+
+    //
+    @FXML StackPane dynamicStackPane;
 
     // Default view
     @FXML ImageView logotype;
@@ -50,9 +56,11 @@ public class Controller implements Initializable {
     }
 
 
-
+    @FXML
     public void enableMyPage(){
-        myPagesButton.setOnAction(e -> System.out.println("Mina sidor clicked"));
+        dynamicStackPane.getChildren().add(new CustomerDataHandler());
     }
+
+
 
 }

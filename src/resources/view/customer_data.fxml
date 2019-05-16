@@ -1,12 +1,271 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Separator?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
 
-
-<fx:root prefHeight="700.0" prefWidth="900.0" style="-fx-background-color: #F35535;" type="javafx.scene.layout.AnchorPane" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+<fx:root fx:id="customerDataHandlingPane" prefHeight="700.0" prefWidth="900.0" style="-fx-background-color: #808080;" type="javafx.scene.layout.AnchorPane" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <TextField layoutX="113.0" layoutY="118.0" text="Förnamn" />
-      <TextField layoutX="113.0" layoutY="166.0" text="Eftenamn" />
+      <HBox prefHeight="100.0" prefWidth="900.0">
+         <children>
+            <ButtonBar buttonMinWidth="280.0" prefHeight="100.0" prefWidth="900.0">
+               <buttons>
+                <Button fx:id="customerDataBtn" mnemonicParsing="false" onAction="#customerDataPaneToFront" prefHeight="100.0" prefWidth="200.0" text="Kunduppgifter">
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Button>
+                  <Button fx:id="orderHistoryBtn" mnemonicParsing="false" onAction="#orderHistoryToFront" prefHeight="100.0" text="Orderhistorik">
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Button>
+                  <Button fx:id="shoppingListBtn" mnemonicParsing="false" onAction="#shoppingListToFront" prefHeight="100.0" text="Inköpslistor">
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Button>
+               </buttons>
+               <HBox.margin>
+                  <Insets right="20.0" top="2.0" />
+               </HBox.margin>
+            </ButtonBar>
+         </children>
+      </HBox>
+      <AnchorPane fx:id="orderHistoryPane" layoutY="100.0" prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: #808080;">
+         <children>
+            <Label layoutX="38.0" layoutY="6.0" text="Aktiva ordrar (1 st) ">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="38.0" layoutY="274.0" text="Tidigare Ordrar (2st)">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="38.0" layoutY="304.0" prefHeight="42.0" prefWidth="810.0" text="Här kan du se äldre ordrar, vad de innehåller, skriva ut kvittokopior, skapa kundlistor och spåra eventuella paket. Klicka på &gt;Visa produkter för att se produkterna på ordern." wrapText="true" />
+            <ScrollPane layoutX="38.0" layoutY="366.0" prefHeight="227.0" prefWidth="843.0">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" />
+              </content>
+            </ScrollPane>
+            <ScrollPane layoutX="38.0" layoutY="116.0" prefHeight="155.0" prefWidth="843.0">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" />
+              </content>
+            </ScrollPane>
+            <Label layoutX="38.0" layoutY="36.0" prefHeight="52.0" prefWidth="810.0" text="Här ser du ordrar som vi jobbar med eller precis har skickat till dig. När en order är skickad kan du även se vart det befinner sig genom att klicka på Spåra. Klicka på &gt; Visa produkter för att se produkterna på ordern. Du kan nu även ta bort ordrar genom att klicka på papperskorgen. Detta går bara att göra tills dess vi packat eller skickat produkten eller ordern." wrapText="true" />
+            <HBox layoutX="55.0" layoutY="346.0" prefHeight="20.0" prefWidth="810.0">
+               <children>
+                  <Label text="Datum">
+                     <HBox.margin>
+                        <Insets right="150.0" top="2.0" />
+                     </HBox.margin>
+                  </Label>
+                  <Label text="Ordernummer">
+                     <HBox.margin>
+                        <Insets right="150.0" top="2.0" />
+                     </HBox.margin>
+                  </Label>
+                  <Label text="Spåra">
+                     <HBox.margin>
+                        <Insets right="150.0" top="2.0" />
+                     </HBox.margin>
+                  </Label>
+                  <Label text="Ordervärde">
+                     <HBox.margin>
+                        <Insets right="150.0" top="2.0" />
+                     </HBox.margin>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox layoutX="55.0" layoutY="96.0" prefHeight="20.0" prefWidth="810.0">
+               <children>
+                  <Label text="Datum">
+                     <HBox.margin>
+                        <Insets right="150.0" top="2.0" />
+                     </HBox.margin>
+                  </Label>
+                  <Label text="Ordernummer">
+                     <HBox.margin>
+                        <Insets right="150.0" top="2.0" />
+                     </HBox.margin>
+                  </Label>
+                  <Label text="Spåra">
+                     <HBox.margin>
+                        <Insets right="150.0" top="2.0" />
+                     </HBox.margin>
+                  </Label>
+                  <Label text="Ordervärde">
+                     <HBox.margin>
+                        <Insets right="150.0" top="2.0" />
+                     </HBox.margin>
+                  </Label>
+               </children>
+            </HBox>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="shoppingListPane" layoutY="100.0" prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: #808080;">
+         <children>
+            <Label layoutX="342.0" layoutY="14.0" text="Sparade Inköpslistor">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="63.0" layoutY="49.0" text="Här ser du Inköpslistor du har sparat. Du kan välja att antigen skapa nya inköpslistor, eller fylla varukorgen med en inköpslista">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <ScrollPane layoutX="63.0" layoutY="127.0" prefHeight="456.0" prefWidth="787.0">
+               <content>
+                  <AnchorPane prefHeight="51.0" prefWidth="772.0">
+                     <children>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="0.0" prefWidth="772.0">
+                           <children>
+                              <HBox prefHeight="36.0" prefWidth="774.0">
+                                 <children>
+                                    <Label text="Namn">
+                                       <font>
+                                          <Font size="19.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets left="10.0" right="40.0" />
+                                       </HBox.margin>
+                                       <padding>
+                                          <Insets left="20.0" right="20.0" />
+                                       </padding>
+                                    </Label>
+                                    <Label alignment="CENTER" text="Skapad">
+                                       <padding>
+                                          <Insets left="20.0" right="20.0" />
+                                       </padding>
+                                       <font>
+                                          <Font size="19.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets left="10.0" right="40.0" />
+                                       </HBox.margin>
+                                    </Label>
+                                    <Label alignment="CENTER" text="Antal produkter">
+                                       <padding>
+                                          <Insets left="20.0" right="20.0" />
+                                       </padding>
+                                       <font>
+                                          <Font size="19.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets left="10.0" right="40.0" />
+                                       </HBox.margin>
+                                    </Label>
+                                    <Label alignment="CENTER" text="Ordervärde">
+                                       <padding>
+                                          <Insets left="20.0" right="20.0" />
+                                       </padding>
+                                       <font>
+                                          <Font size="19.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets left="10.0" right="40.0" />
+                                       </HBox.margin>
+                                    </Label>
+                                 </children>
+                                 <padding>
+                                    <Insets top="5.0" />
+                                 </padding>
+                              </HBox>
+                              <Separator layoutY="45.0" prefWidth="774.0" />
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane fx:id="innerShoppingListPane" layoutY="46.0" prefHeight="403.0" prefWidth="768.0">
+                           <children>
+                              <VBox fx:id="innerShopingVBox" prefHeight="400.0" prefWidth="772.0" />
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </AnchorPane>
+               </content>
+            </ScrollPane>
+            <Button layoutX="681.0" layoutY="92.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="158.0" text="Skapa Inköpslista" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="customerDataPane" layoutY="100.0" prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: #808080;">
+         <children>
+            <Separator layoutX="450.0" orientation="VERTICAL" prefHeight="600.0" prefWidth="10.0" />
+            <Separator layoutX="455.0" layoutY="300.0" prefWidth="445.0" />
+            <Label layoutX="599.0" layoutY="312.0" text="Sparade Kontokort">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Label>
+            <Label layoutX="19.0" layoutY="19.0" text="Personnummer">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <TextField layoutX="20.0" layoutY="46.0" prefHeight="28.0" prefWidth="190.0" promptText="Personnummer" />
+            <TextField layoutX="20.0" layoutY="136.0" prefHeight="25.0" prefWidth="190.0" promptText="Förnamn" />
+            <TextField layoutX="20.0" layoutY="172.0" prefHeight="25.0" prefWidth="395.0" promptText="Gatuadress" />
+            <TextField layoutX="225.0" layoutY="136.0" prefHeight="25.0" prefWidth="190.0" promptText="Efternamn" />
+            <TextField layoutX="20.0" layoutY="210.0" prefHeight="25.0" prefWidth="190.0" promptText="Postkod" />
+            <TextField layoutX="225.0" layoutY="210.0" prefHeight="25.0" prefWidth="190.0" promptText="Postort" />
+            <Label layoutX="20.0" layoutY="106.0" text="Leveransadress">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <TextField layoutX="20.0" layoutY="300.0" prefHeight="25.0" prefWidth="190.0" promptText="E-post" />
+            <Label layoutX="20.0" layoutY="265.0" text="E-post">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="20.0" layoutY="352.0" text="Mobiltelefon">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="20.0" layoutY="435.0" text="Ändra Lösenord">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Button layoutX="20.0" layoutY="524.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="395.0" text="Spara Uppgifter" />
+            <PasswordField layoutX="20.0" layoutY="471.0" prefHeight="25.0" prefWidth="190.0" promptText="Välj lösenord" />
+            <PasswordField layoutX="225.0" layoutY="471.0" prefHeight="25.0" prefWidth="190.0" promptText="Repetera Lösenord" />
+            <TextField layoutX="20.0" layoutY="383.0" prefHeight="25.0" prefWidth="190.0" promptText="Mobiltelefon" />
+            <TextField layoutX="225.0" layoutY="300.0" prefHeight="25.0" prefWidth="190.0" promptText="Repetera E-post" />
+            <TextField layoutX="477.0" layoutY="57.0" prefHeight="36.0" prefWidth="370.0" promptText="Fullständigt namn på kort" />
+            <TextField layoutX="477.0" layoutY="106.0" prefHeight="36.0" prefWidth="370.0" promptText="Kortnummer" />
+            <TextField layoutX="477.0" layoutY="154.0" prefHeight="36.0" prefWidth="67.0" promptText="MM" />
+            <TextField layoutX="550.0" layoutY="154.0" prefHeight="36.0" prefWidth="67.0" promptText="YY" />
+            <TextField layoutX="626.0" layoutY="154.0" prefHeight="36.0" prefWidth="221.0" promptText="CVV2" />
+            <Button layoutX="591.0" layoutY="235.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="158.0" text="Spara Kortuppgifter" />
+            <Label layoutX="637.0" layoutY="24.0" text="Kreditkort">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <ChoiceBox layoutX="602.0" layoutY="353.0" prefWidth="150.0" />
+            <TextField layoutX="487.0" layoutY="405.0" prefHeight="37.0" prefWidth="370.0" promptText="Fullständigt namn på kort" />
+            <TextField layoutX="485.0" layoutY="453.0" prefHeight="36.0" prefWidth="370.0" promptText="Kortnummer" />
+            <TextField layoutX="487.0" layoutY="502.0" prefHeight="36.0" prefWidth="67.0" promptText="MM" />
+            <TextField layoutX="560.0" layoutY="502.0" prefHeight="36.0" prefWidth="67.0" promptText="YY" />
+            <TextField layoutX="636.0" layoutY="502.0" prefHeight="36.0" prefWidth="221.0" promptText="CVV2" />
+            <Button layoutX="726.0" layoutY="555.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="127.0" text="Ta bort kontokort" />
+            <Button layoutX="485.0" layoutY="555.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="190.0" text="Gör till primärt Kontokort" />
+         </children>
+      </AnchorPane>
    </children>
 </fx:root>
