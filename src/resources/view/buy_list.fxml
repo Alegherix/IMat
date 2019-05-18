@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<fx:root prefHeight="27.0" prefWidth="770.0" type="AnchorPane" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TitledPane fx:id="expandedPane" animated="false" expanded="false" prefHeight="25.0" prefWidth="770.0" text="Köttveckan                           14/5-2018                                         25                                                              800kr                                                  ">
+        <content>
+          <AnchorPane layoutY="50.0" minHeight="0.0" minWidth="0.0" prefHeight="21.0" prefWidth="768.0" />
+        </content>
+      </TitledPane>
+   </children>
+   <cursor>
+      <Cursor fx:constant="DEFAULT" />
+   </cursor>
+</fx:root>
