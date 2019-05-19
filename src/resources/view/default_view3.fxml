@@ -3,6 +3,8 @@
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Accordion?>
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
 <?import javafx.scene.control.ScrollPane?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.control.TitledPane?>
@@ -13,7 +15,7 @@
 <?import javafx.scene.layout.StackPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" stylesheets="@../stylesheets/stylesheet.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Controller">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" stylesheets="@../stylesheets/stylesheet.css" xmlns="http://javafx.com/javafx/8.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Controller">
    <children>
       <BorderPane layoutX="-11.0" layoutY="-8.0" prefHeight="900.0" prefWidth="1300.0">
          <top>
@@ -65,7 +67,7 @@
                         </ImageView>
                      </graphic>
                   </Button>
-                  <ImageView fitHeight="133.0" fitWidth="127.0" layoutX="1111.0" layoutY="43.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="98.0" fitWidth="128.0" layoutX="1126.0" layoutY="54.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@../../pictogram/online-shopping-cart.png" />
                      </image>
@@ -74,17 +76,17 @@
             </AnchorPane>
          </top>
          <center>
-            <StackPane fx:id="dynamicStackPane" prefHeight="700.0" prefWidth="900.0" BorderPane.alignment="CENTER">
+            <StackPane fx:id="dynamicStackPane" prefHeight="1000.0" prefWidth="645.0" BorderPane.alignment="CENTER">
                <BorderPane.margin>
                   <Insets />
                </BorderPane.margin>
                <children>
-                  <ScrollPane fx:id="dynamicPane" prefHeight="527.0" prefWidth="830.0" />
+                  <ScrollPane fx:id="dynamicPane" prefWidth="645.0" vbarPolicy="ALWAYS" hbarPolicy="NEVER"    />
                </children>
             </StackPane>
          </center>
          <left>
-            <AnchorPane prefHeight="200.0" prefWidth="235.0" style="-fx-background-color: #DDDDDD;" BorderPane.alignment="CENTER">
+            <AnchorPane prefWidth="235.0" style="-fx-background-color: #DDDDDD;" BorderPane.alignment="CENTER">
                <children>
                   <Accordion fx:id="menu" prefHeight="329.0" prefWidth="235.0">
                     <panes>
@@ -138,7 +140,20 @@
                </children></AnchorPane>
          </left>
          <right>
-            <AnchorPane prefHeight="559.0" prefWidth="235.0" BorderPane.alignment="CENTER" />
+            <AnchorPane prefHeight="741.0" prefWidth="235.0" style="-fx-background-color: #DDDDDD;" BorderPane.alignment="CENTER">
+               <children>
+                  <ListView layoutX="-2.0" layoutY="32.0" prefHeight="608.0" prefWidth="235.0" />
+                  <Label layoutX="40.0" layoutY="3.0" prefHeight="25.0" prefWidth="147.0" text="DIN VARUKORG">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="cashOutButton1" layoutX="20.0" layoutY="650.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="182.0" text="KASSA">
+                     <font>
+                        <Font size="31.0" />
+                     </font>
+                  </Button>
+               </children></AnchorPane>
          </right>
       </BorderPane>
    </children>

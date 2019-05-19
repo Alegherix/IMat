@@ -2,9 +2,11 @@ package controller;
 
 import component.CustomerDataHandler;
 import component.GridView;
+import component.Product_item;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.*;
+import javafx.scene.layout.GridPane;
 import javafx.scene.layout.StackPane;
 import javax.swing.text.html.ImageView;
 import java.net.URL;
@@ -31,9 +33,13 @@ public class Controller implements Initializable {
 
 
     @FXML ScrollPane dynamicPane;
+    @FXML GridPane gridPane;
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
+        GridView test = new GridView();
+        dynamicStackPane.getChildren().add(gridPane);
+
     }
 
 
