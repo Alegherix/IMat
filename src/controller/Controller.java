@@ -37,8 +37,6 @@ public class Controller implements Initializable {
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-        GridView test = new GridView();
-        dynamicStackPane.getChildren().add(gridPane);
 
     }
 
