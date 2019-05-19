@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<AnchorPane prefHeight="1100.0" prefWidth="645.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="component.GridView">
+   <children>
+      <GridPane fx:id="gridPane" gridLinesVisible="true" hgap="15.0" layoutX="-27.0" layoutY="-16.0" prefHeight="1100.0" prefWidth="645.0" vgap="15.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <columnConstraints>
+            <ColumnConstraints hgrow="NEVER" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="205.0" />
+            <ColumnConstraints hgrow="NEVER" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="205.0" />
+            <ColumnConstraints hgrow="NEVER" maxWidth="Infinity" minWidth="-Infinity" prefWidth="205.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="289.0" vgrow="NEVER" />
+            <RowConstraints minHeight="10.0" prefHeight="289.0" vgrow="NEVER" />
+            <RowConstraints minHeight="10.0" prefHeight="289.0" vgrow="NEVER" />
+            <RowConstraints minHeight="10.0" prefHeight="289.0" vgrow="NEVER" />
+         </rowConstraints>
+      </GridPane>
+   </children>
+</AnchorPane>

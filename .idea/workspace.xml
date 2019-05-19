@@ -1,208 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="La till Controller över mina sidor">
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/META-INF/IMat.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/application/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/component/BuylistComponent.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/component/BuylistExpandedComponent.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/component/BuylistHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/component/CustomerDataHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/component/OrderHistory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/controller/Controller.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/pictogram/black-user-shape.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/pictogram/help-button.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/pictogram/logotest.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/pictogram/magnifier.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/pictogram/online-shopping-cart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/pictogram/pineapple.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/pictogram/wallet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/creditcard.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/customer.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/eco.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/favorites.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_100.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_101.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_102.bmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_102.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_103.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_104.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_105.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_106.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_107.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_108.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_109.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_110.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_111.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_112.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_113.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_114.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_115.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_116.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_117.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_118.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_119.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_120.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_121.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_122.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_123.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_124.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_125.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_126.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_127.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_128.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_129.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_130.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_131.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_132.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_133.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_134.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_135.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_136.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_137.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_138.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_139.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_140.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_141.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_142.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_143.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_144.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_145.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_146.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_147.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_148.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_149.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_150.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_151.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_152.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_153.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_154.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_18.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_20.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_21.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_22.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_23.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_24.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_25.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_26.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_27.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_28.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_29.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_30.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_31.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_32.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_33.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_34.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_35.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_36.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_37.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_38.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_39.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_40.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_41.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_42.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_43.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_44.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_45.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_46.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_47.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_48.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_49.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_50.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_51.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_52.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_53.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_54.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_55.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_56.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_57.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_58.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_59.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_60.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_61.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_62.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_63.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_64.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_65.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_66.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_67.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_68.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_69.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_70.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_71.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_72.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_73.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_74.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_75.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_76.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_77.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_78.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_79.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_80.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_81.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_82.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_83.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_84.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_85.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_86.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_87.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_88.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_89.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_90.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_91.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_92.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_93.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_94.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_95.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_96.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_97.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_98.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/images/product_99.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/prefs.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/products.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/shoppingcart.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/imat/user.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/stylesheets/stylesheet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/view/List_item.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/view/buy_list.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/view/buy_list_expanded.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/view/customer_data.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/view/default_view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/view/default_view3.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/view/product_view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/resources/view/shopping_item_list_view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMat/util/Utility.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/BuylistComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/BuylistExpandedComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/BuylistHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/stylesheets/stylesheet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/view/buy_list.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/view/buy_list_expanded.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/view/shopping_item_list_view.fxml" afterDir="false" />
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment=" 15may">
+      <change afterPath="$PROJECT_DIR$/src/component/GridView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/ProductView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/Product_item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/view/grid_view.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/application/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/CustomerDataHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/CustomerDataHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/view/customer_data.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/view/customer_data.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/view/default_view3.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/view/default_view3.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/view/List_item.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/view/Product_item.fxml" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -265,98 +72,55 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/application/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="54" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
+            <state relative-caret-position="374">
+              <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/resources/view/List_item.fxml">
-          <provider selected="true" editor-type-id="text-editor" />
-          <provider editor-type-id="JavaFX-Scene-Builder" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/resources/view/shopping_item_list_view.fxml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="134" selection-start-line="9" selection-start-column="134" selection-end-line="9" selection-end-column="134" />
-            </state>
-          </provider>
-          <provider editor-type-id="JavaFX-Scene-Builder" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/resources/view/customer_data.fxml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-          <provider editor-type-id="JavaFX-Scene-Builder" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/component/BuylistComponent.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/component/CustomerDataHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="867">
-              <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/resources/stylesheets/stylesheet.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/component/BuylistHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#732#733#0" expanded="true" />
-                <element signature="e#771#772#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/component/BuylistExpandedComponent.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/controller/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="901">
-              <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+            <state relative-caret-position="105">
+              <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
               <folding>
-                <element signature="e#1387#1388#0" expanded="true" />
-                <element signature="e#1439#1440#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#830#831#0" expanded="true" />
+                <element signature="e#874#875#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/component/Product_item.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="215">
+              <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/resources/view/grid_view.fxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="447">
+              <caret line="22" column="14" lean-forward="true" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+            </state>
+          </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/component/GridView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -367,9 +131,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="module-info" />
         <option value="FxmlFile" />
         <option value="Class" />
-        <option value="module-info" />
       </list>
     </option>
   </component>
@@ -393,19 +157,33 @@
         <option value="$PROJECT_DIR$/src/resources/view/Controller.java" />
         <option value="$USER_HOME$/S C H O O L/Grafisk konstruktion/module-info.java" />
         <option value="$PROJECT_DIR$/src/module-info.java" />
-        <option value="$PROJECT_DIR$/src/resources/view/default_view3.fxml" />
         <option value="$PROJECT_DIR$/src/component/BuylistHandler.java" />
-        <option value="$PROJECT_DIR$/src/controller/Controller.java" />
-        <option value="$PROJECT_DIR$/src/application/Main.java" />
         <option value="$PROJECT_DIR$/src/resources/stylesheets/stylesheet.css" />
+        <option value="$PROJECT_DIR$/src/controller/GridView.java" />
+        <option value="$PROJECT_DIR$/src/component/Product.java" />
+        <option value="$PROJECT_DIR$/src/component/ProductI_tem.java" />
+        <option value="$PROJECT_DIR$/src/component/Product_Item.java" />
+        <option value="$PROJECT_DIR$/src/resources/view/GridView.java" />
+        <option value="$PROJECT_DIR$/src/component/Default_view.java" />
+        <option value="$PROJECT_DIR$/src/resources/view/List_item.fxml" />
+        <option value="$PROJECT_DIR$/src/resources/view/Product_item.fxml" />
+        <option value="$PROJECT_DIR$/src/resources/view/grid_view.fxml" />
+        <option value="$PROJECT_DIR$/src/resources/view/default_view3.fxml" />
+        <option value="$PROJECT_DIR$/src/controller/DefaultView.java" />
+        <option value="$PROJECT_DIR$/src/component/Product_item.java" />
+        <option value="$PROJECT_DIR$/src/component/ProductView.java" />
+        <option value="$PROJECT_DIR$/src/component/GridView.java" />
+        <option value="$PROJECT_DIR$/src/application/Main.java" />
+        <option value="$PROJECT_DIR$/src/controller/Controller.java" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="1607" />
-    <option name="width" value="1840" />
-    <option name="height" value="1407" />
+    <option name="x" value="-8" />
+    <option name="y" value="38" />
+    <option name="width" value="976" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -416,42 +194,54 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="IMat2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IMat2" type="462c0819:PsiDirectoryNode" />
+              <item name="IMat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IMat" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="IMat2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IMat2" type="462c0819:PsiDirectoryNode" />
+              <item name="IMat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IMat" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="IMat2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IMat2" type="462c0819:PsiDirectoryNode" />
+              <item name="IMat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IMat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IMat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IMat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="component" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IMat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IMat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IMat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IMat" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="IMat2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IMat2" type="462c0819:PsiDirectoryNode" />
+              <item name="IMat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IMat" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="view" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IMat2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IMat2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -502,7 +292,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -521,13 +311,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GridView" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="component.GridView" />
+      <module name="IMat" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="component.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="application.Main" />
       <module name="IMat" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="controller.*" />
+          <option name="PATTERN" value="component.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -574,6 +378,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.GridView" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -595,6 +404,7 @@
       <workItem from="1557828818014" duration="4292000" />
       <workItem from="1557907730656" duration="6946000" />
       <workItem from="1558018266663" duration="2526000" />
+      <workItem from="1558254266669" duration="2336000" />
     </task>
     <task id="LOCAL-00001" summary="Grundläggande design klar för gruppen.">
       <created>1557152924250</created>
@@ -642,21 +452,22 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26557000" />
+    <option name="totallyTimeSpent" value="42637000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1607" y="0" width="1840" height="1407" extended-state="0" />
+    <frame x="-8" y="38" width="976" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.30803823" />
-      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" weight="0.39" />
+      <window_info id="Structure" order="1" weight="0.2488889" />
       <window_info id="Favorites" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="Image Layers" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="UI Designer" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.22370486" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32922733" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34541336" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -667,7 +478,7 @@
       <window_info anchor="bottom" id="Changes" order="10" />
       <window_info anchor="bottom" id="Profiler" order="11" />
       <window_info anchor="bottom" id="Event Log" order="12" />
-      <window_info anchor="bottom" id="Messages" order="13" visible="true" weight="0.33124018" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.33034715" />
       <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="15" />
       <window_info anchor="bottom" id="Terminal" order="16" />
@@ -684,6 +495,44 @@
       <window_info anchor="right" id="Palette&#9;" order="10" />
       <window_info anchor="right" id="Theme Preview" order="11" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.18850698" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="UI Designer" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.22284435" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Application Servers" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Problems" order="9" />
+      <window_info anchor="bottom" id="Changes" order="10" />
+      <window_info anchor="bottom" id="Profiler" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.33124018" />
+      <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="15" />
+      <window_info anchor="bottom" id="Terminal" order="16" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="JetGradle" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="right" id="Maven" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="8" />
+      <window_info anchor="right" id="Key Promoter X" order="9" />
+      <window_info anchor="right" id="Palette&#9;" order="10" />
+      <window_info anchor="right" id="Theme Preview" order="11" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -703,9 +552,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/resources/images/product_2.jpg" />
-    <entry file="file://$PROJECT_DIR$/src/resources/creditcard.txt" />
-    <entry file="file://$PROJECT_DIR$/src/resources/customer.txt" />
     <entry file="file://$PROJECT_DIR$/src/resources/eco.txt" />
     <entry file="file://$PROJECT_DIR$/src/resources/user.txt" />
     <entry file="file://$PROJECT_DIR$/src/resources/shoppingcart.txt" />
@@ -745,32 +591,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/view/default_view.fxml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
     <entry file="file://$USER_HOME$/S C H O O L/Grafisk konstruktion/RecipeSearch/src/recipesearch/RecipeSearch.java" />
     <entry file="file://$USER_HOME$/S C H O O L/Grafisk konstruktion/RecipeSearch/src/recipesearch/RecipeSearchController.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/javafx-src.zip!/javafx/event/EventHandler.java" />
-    <entry file="file://$PROJECT_DIR$/src/resources/view/default_view3.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/OrderHistory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pictogram/black-user-shape.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -789,70 +612,13 @@
     <entry file="file://$PROJECT_DIR$/src/pictogram/wallet.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/view/List_item.fxml">
-      <provider selected="true" editor-type-id="text-editor" />
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/BuylistComponent.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/view/customer_data.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="264">
+          <caret line="271" selection-start-line="271" selection-end-line="271" />
         </state>
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/application/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="54" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
-          <folding>
-            <element signature="e#1387#1388#0" expanded="true" />
-            <element signature="e#1439#1440#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/BuylistExpandedComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/BuylistHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#732#733#0" expanded="true" />
-            <element signature="e#771#772#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/CustomerDataHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/stylesheets/stylesheet.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -861,13 +627,164 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/view/shopping_item_list_view.fxml">
+    <entry file="file://$PROJECT_DIR$/src/resources/view/buy_list_expanded.fxml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/view/default_view.fxml">
+      <provider editor-type-id="text-editor">
+        <state>
+          <caret line="19" column="119" selection-start-line="19" selection-start-column="119" selection-end-line="19" selection-end-column="119" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/view/product_view.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="134" selection-start-line="9" selection-start-column="134" selection-end-line="9" selection-end-column="134" />
+        <state relative-caret-position="264">
+          <caret line="12" column="68" selection-start-line="12" selection-start-column="68" selection-end-line="12" selection-end-column="68" />
         </state>
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/view/shopping_item_list_view.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/Product.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/javafx-src.zip!/com/sun/javafx/application/PlatformImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="294" column="26" selection-start-line="294" selection-start-column="26" selection-end-line="294" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/Default_view.java" />
+    <entry file="file://$PROJECT_DIR$/src/resources/view/buy_list.fxml">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/BuylistExpandedComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="14" column="89" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="89" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/BuylistComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/view/List_item.fxml" />
+    <entry file="file://$PROJECT_DIR$/src/controller/DefaultView.java" />
+    <entry file="file://$PROJECT_DIR$/src/component/CustomerDataHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-110">
+          <caret line="19" column="45" lean-forward="true" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/view/Product_item.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/OrderHistory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/BuylistHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#732#733#0" expanded="true" />
+            <element signature="e#771#772#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/view/grid_view.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="22" column="14" lean-forward="true" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/ProductView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/GridView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/application/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/view/default_view3.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-223">
+          <caret line="81" column="30" selection-start-line="81" selection-start-column="30" selection-end-line="81" selection-end-column="30" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/Product_item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#830#831#0" expanded="true" />
+            <element signature="e#874#875#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
