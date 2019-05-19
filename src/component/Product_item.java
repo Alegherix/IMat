@@ -21,7 +21,7 @@ public class Product_item extends AnchorPane {
     @FXML TextField quantityFieldListView;
 
     public Product_item(){
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../resources/view/product_item.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../resources/view/Product_item.fxml"));
         fxmlLoader.setRoot(this);
         fxmlLoader.setController(this);
         try {

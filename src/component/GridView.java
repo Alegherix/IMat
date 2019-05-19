@@ -9,11 +9,11 @@ import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
 
-
 public class GridView extends AnchorPane{
-    @FXML GridPane gridPane;
 
-    public GridView(){
+    @FXML GridPane gridpane;
+
+    public GridView() {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../resources/view/grid_view.fxml"));
         fxmlLoader.setRoot(this);
         fxmlLoader.setController(this);
@@ -22,8 +22,10 @@ public class GridView extends AnchorPane{
         } catch (IOException e) {
             e.printStackTrace();
         }
-    }
 
+       // gridpane.add(new Product_item(),0,0);
+
+    }
 }
 
 
