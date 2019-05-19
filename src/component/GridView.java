@@ -23,10 +23,7 @@ public class GridView extends AnchorPane{
             e.printStackTrace();
         }
 
-        gridpane.add(new Product_item(), 0, 0);
-
-        for (int i = 0; i<4 ; i++) {
-       }
+       // gridpane.add(new Product_item(), 0, 0);
     }
 }
 
