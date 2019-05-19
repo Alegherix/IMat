@@ -142,7 +142,7 @@
          <right>
             <AnchorPane prefHeight="741.0" prefWidth="235.0" style="-fx-background-color: #DDDDDD;" BorderPane.alignment="CENTER">
                <children>
-                  <ListView layoutX="-2.0" layoutY="32.0" prefHeight="608.0" prefWidth="235.0" />
+                  <ListView layoutX="-2.0" layoutY="32.0" prefHeight="608.0" prefWidth="260.0" />
                   <Label layoutX="40.0" layoutY="3.0" prefHeight="25.0" prefWidth="147.0" text="DIN VARUKORG">
                      <font>
                         <Font size="20.0" />
