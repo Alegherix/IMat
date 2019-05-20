@@ -5,12 +5,10 @@ import java.util.Map;
 
 public class BuylistHandler {
 
-    // Deals with handling the orders
-    // Lagra som en Map
+
 
    Map<BuylistComponent, BuylistExpandedComponent> savedShoppingMap = new LinkedHashMap<>();
-//
-//
+
 //
     public void addTestEntries(){
         savedShoppingMap.put(configureBuyListComponent(new BuylistComponent()), new BuylistExpandedComponent());
@@ -26,6 +24,8 @@ public class BuylistHandler {
         blComp.getExpandedPane().setOnMouseClicked(e -> blComp.getExpandedPane().setContent(new BuylistExpandedComponent()));
         return blComp;
     }
+
+
 
 
 }

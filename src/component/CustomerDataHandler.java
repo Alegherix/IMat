@@ -40,7 +40,6 @@ public class CustomerDataHandler extends AnchorPane {
         BuylistHandler buylistHandler = new BuylistHandler();
         buylistHandler.addTestEntries();
         buylistHandler.getSavedShoppingMap().forEach((k, v) -> innerShopingVBox.getChildren().add(k));
-
     }
 
 

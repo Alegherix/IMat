@@ -16,9 +16,6 @@ public class BuylistComponent extends AnchorPane {
 
     // Initialize Component
     public BuylistComponent() {
-
-
-
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../resources/view/buy_list.fxml"));
         fxmlLoader.setRoot(this);
         fxmlLoader.setController(this);
@@ -28,10 +25,17 @@ public class BuylistComponent extends AnchorPane {
         } catch (IOException e) {
             e.printStackTrace();
         }
+        initializeBorderText();
     }
 
+
+    public void initializeBorderText(){
+        expandedPane.setText("Test                  50");
+    }
 
     public TitledPane getExpandedPane() {
         return expandedPane;
     }
+
+
 }
