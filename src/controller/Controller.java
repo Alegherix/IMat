@@ -34,9 +34,9 @@ public class Controller implements Initializable {
 
     @FXML ScrollPane dynamicPane;
 
+
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-        //dynamicStackPane.getChildren().add(new GridView());
         dynamicPane.setContent(new GridView());
     }
 

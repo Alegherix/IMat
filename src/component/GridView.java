@@ -4,14 +4,17 @@ package component;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.control.Button;
+import javafx.scene.control.Label;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.GridPane;
+import util.Product;
+
 import java.io.IOException;
 
 
 public class GridView extends AnchorPane{
 
-    @FXML GridPane gridpane;
+    @FXML GridPane gridPane;
 
     public GridView() {
 
@@ -24,9 +27,27 @@ public class GridView extends AnchorPane{
             e.printStackTrace();
         }
 
-       //gridpane.getChildren().add(new Product_item());
+
+
+        fillGridPane();
+
+    }
+
+    public void fillGridPane() {
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 10; j++) {
+                gridPane.add(getProduct(), i, j);
+            }
+        }
+    }
+
+    public Product_item getProduct(){
+       return new Product_item();
     }
 }
+
+
+
 
 
 
