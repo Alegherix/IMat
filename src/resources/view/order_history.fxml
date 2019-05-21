@@ -2,13 +2,16 @@
 
 <?import javafx.scene.control.TitledPane?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
 
-
-<fx:root prefHeight="50.0" prefWidth="600.0" type="AnchorPane" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+<fx:root type="AnchorPane" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <TitledPane animated="false" prefHeight="59.0" prefWidth="600.0" text="untitled">
+      <TitledPane fx:id="orderHistoryTitledPane" animated="false" expanded="false" prefWidth="838.0" text="untitled">
         <content>
-          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="23.0" prefWidth="598.0" />
+          <AnchorPane fx:id="orderHistoryInnerAnchor" minHeight="0.0" minWidth="0.0">
+               <children>
+                  <VBox fx:id="orderHistoryPaneToAddTo" />
+               </children></AnchorPane>
         </content>
       </TitledPane>
    </children>

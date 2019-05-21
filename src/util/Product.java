@@ -4,6 +4,7 @@ package util;
 import com.google.gson.Gson;
 import se.chalmers.cse.dat216.project.ShoppingItem;
 
+
 import java.io.IOException;
 import java.net.URISyntaxException;
 import java.nio.file.Files;
@@ -23,7 +24,7 @@ public class Product {
     private double price;
     private String unit;
 
-    protected Product() {
+    public Product() {
     }
 
     public Product(int productId, String category, String name, Boolean isEcological, double price, String unit) {

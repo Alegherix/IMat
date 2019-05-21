@@ -1,4 +1,4 @@
-package component;
+package component.shoppingList;
 
 import java.util.LinkedHashMap;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package component;
+package component.shoppingList;
 
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;

@@ -1,5 +1,7 @@
 package component;
 
+import component.orderhistory.OrderHistoryHandler;
+import component.shoppingList.BuylistHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.control.Button;
@@ -19,6 +21,7 @@ public class CustomerDataHandler extends AnchorPane {
     @FXML AnchorPane orderHistoryPane;
     @FXML AnchorPane customerDataHandlingPane;
     @FXML VBox innerShopingVBox;
+    @FXML VBox currentOrderPane;
 
 
     public CustomerDataHandler() {
@@ -32,7 +35,7 @@ public class CustomerDataHandler extends AnchorPane {
             e.printStackTrace();
         }
 
-        fillWithData();
+        fillOrderHistoryData();
 
     }
 
@@ -40,6 +43,19 @@ public class CustomerDataHandler extends AnchorPane {
         BuylistHandler buylistHandler = new BuylistHandler();
         buylistHandler.addTestEntries();
         buylistHandler.getSavedShoppingMap().forEach((k, v) -> innerShopingVBox.getChildren().add(k));
+    }
+
+    private void fillOrderHistoryData(){
+        OrderHistoryHandler orderHistoryHandler = new OrderHistoryHandler();
+        currentOrderPane.getChildren().addAll(orderHistoryHandler.getOrderHistories());
+
+    }
+
+    private void populateOrderHistory(){
+
+        OrderHistoryHandler orderHistory = new OrderHistoryHandler();
+//        currentOrderPane.setContent(orderHistory.getOrderHistory());
+
     }
 
 
@@ -57,6 +73,8 @@ public class CustomerDataHandler extends AnchorPane {
     public void shoppingListToFront(){
         shoppingListPane.toFront();
     }
+
+
 
 
 
