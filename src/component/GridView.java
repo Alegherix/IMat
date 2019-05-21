@@ -3,11 +3,8 @@ package component;
 
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
-import javafx.scene.control.Button;
-import javafx.scene.control.Label;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.GridPane;
-import util.Product;
 
 import java.io.IOException;
 
@@ -34,7 +31,7 @@ public class GridView extends AnchorPane{
     }
 
     public void fillGridPane() {
-        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i < 4; i++) {
             for (int j = 0; j < 10; j++) {
                 gridPane.add(getProduct(), i, j);
             }
