@@ -2,6 +2,8 @@ package util;
 
 import com.google.gson.Gson;
 
+import java.io.BufferedWriter;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.net.URISyntaxException;
 import java.nio.file.Files;
@@ -14,18 +16,40 @@ public class BillingInformation {
     private String phone = "";
     private String ssn = "";
     private String zip = "";
+    private String state = "";
     private String firstName = "";
     private String lastName = "";
     private String address = "";
+    private boolean homeDelivery = false;
 
-    public BillingInformation(String email, String phone, String ssn, String zip, String firstName, String lastName, String address) {
+
+
+    public String getState() {
+        return state;
+    }
+
+    public void setState(String state) {
+        this.state = state;
+    }
+
+    public BillingInformation(String email, String phone, String ssn, String state, String zip, String firstName, String lastName, String address, boolean homeDelivery) {
         setEmail(email);
         setPhone(phone);
         setSsn(ssn);
+        setState(state);
         setZip(zip);
         setFirstName(firstName);
         setLastName(lastName);
         setAddress(address);
+        setHomeDelivery(homeDelivery);
+    }
+
+    public boolean isHomeDelivery() {
+        return homeDelivery;
+    }
+
+    public void setHomeDelivery(boolean homeDelivery) {
+        this.homeDelivery = homeDelivery;
     }
 
     public BillingInformation() {}
@@ -113,4 +137,5 @@ public class BillingInformation {
             e.printStackTrace();
         }
     }
+
 }

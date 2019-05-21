@@ -43,6 +43,7 @@ public class Controller implements Initializable {
 
     @FXML
     public void enableMyPage(){
+        dynamicStackPane.getChildren().clear();
         dynamicStackPane.getChildren().add(new CustomerDataHandler());
     }
 

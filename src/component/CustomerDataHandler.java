@@ -1,7 +1,6 @@
 package component;
 
 import component.orderhistory.OrderHistoryHandler;
-import component.shoppingList.BuylistHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.control.Button;
@@ -23,6 +22,7 @@ public class CustomerDataHandler extends AnchorPane {
     @FXML VBox innerShopingVBox;
     @FXML VBox currentOrderPane;
 
+    private OrderHistoryHandler orderHistoryHandler;
 
     public CustomerDataHandler() {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../resources/view/customer_data.fxml"));
@@ -34,38 +34,31 @@ public class CustomerDataHandler extends AnchorPane {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
-        fillOrderHistoryData();
-
+        customerDataPaneToFront();
     }
 
-    private void fillWithData() {
-        BuylistHandler buylistHandler = new BuylistHandler();
-        buylistHandler.addTestEntries();
-        buylistHandler.getSavedShoppingMap().forEach((k, v) -> innerShopingVBox.getChildren().add(k));
-    }
 
     private void fillOrderHistoryData(){
-        OrderHistoryHandler orderHistoryHandler = new OrderHistoryHandler();
-        currentOrderPane.getChildren().addAll(orderHistoryHandler.getOrderHistories());
-
-    }
-
-    private void populateOrderHistory(){
-
-        OrderHistoryHandler orderHistory = new OrderHistoryHandler();
-//        currentOrderPane.setContent(orderHistory.getOrderHistory());
-
+//        orderHistoryHandler = new OrderHistoryHandler();
+//        currentOrderPane.getChildren().addAll(orderHistoryHandler.getOrderHistories());
     }
 
 
+    /**
+     * Se till att ladda in den nya Modellen direkt.
+     */
     @FXML
     public void customerDataPaneToFront(){
+        customerDataPane.getChildren().add(new CustomerContactInfoHandler());
         customerDataPane.toFront();
+
     }
 
     @FXML
     public void orderHistoryToFront(){
+        if(orderHistoryHandler==null){
+            fillOrderHistoryData();
+        }
         orderHistoryPane.toFront();
     }
 
@@ -73,13 +66,6 @@ public class CustomerDataHandler extends AnchorPane {
     public void shoppingListToFront(){
         shoppingListPane.toFront();
     }
-
-
-
-
-
-
-
 
 
 }
