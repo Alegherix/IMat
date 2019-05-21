@@ -1,16 +1,13 @@
 package application;
 
-import component.GridView;
-import controller.Controller;
+
 import javafx.application.Application;
-import javafx.fxml.FXML;
+
 import javafx.fxml.FXMLLoader;
 import javafx.scene.*;
-import javafx.scene.control.ScrollPane;
-import javafx.scene.layout.GridPane;
+
 import javafx.stage.Stage;
 
-import java.awt.*;
 
 public class Main extends Application {
 

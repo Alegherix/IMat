@@ -23,6 +23,9 @@ public class CreditCard implements PaymentMethod {
     private String cardNumber;
     private int verificationCode;
 
+    public CreditCard() {
+    }
+
     public CreditCard(CreditCard.CardType cardType, String holdersName, int validMonth, int validYear, String cardNumber, int verificationCode) {
         setCardType(cardType);
         setHoldersName(holdersName);
@@ -112,5 +115,10 @@ public class CreditCard implements PaymentMethod {
         } catch (IOException | URISyntaxException e) {
             e.printStackTrace();
         }
+    }
+
+    @Override
+    public String toString() {
+        return cardNumber;
     }
 }

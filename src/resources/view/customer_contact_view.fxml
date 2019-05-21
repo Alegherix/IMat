@@ -53,12 +53,12 @@
             <Font name="System Bold" size="12.0" />
          </font>
       </Button>
-      <TextField layoutX="571.0" layoutY="60.0" prefHeight="37.0" prefWidth="370.0" promptText="Fullständigt namn på kort" />
-      <TextField layoutX="571.0" layoutY="109.0" prefHeight="37.0" prefWidth="370.0" promptText="Kortnummer" />
-      <TextField layoutX="571.0" layoutY="157.0" prefHeight="37.0" prefWidth="67.0" promptText="MM" />
-      <TextField layoutX="644.0" layoutY="157.0" prefHeight="37.0" prefWidth="67.0" promptText="YY" />
-      <TextField layoutX="720.0" layoutY="157.0" prefHeight="37.0" prefWidth="221.0" promptText="CVV2" />
-      <Button layoutX="661.0" layoutY="225.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="158.0" text="Spara Kortuppgifter">
+      <TextField fx:id="firstCardNameField" layoutX="571.0" layoutY="60.0" prefHeight="37.0" prefWidth="370.0" promptText="Fullständigt namn på kort" />
+      <TextField fx:id="firstCardNumberField" layoutX="571.0" layoutY="109.0" prefHeight="37.0" prefWidth="370.0" promptText="Kortnummer" />
+      <TextField fx:id="firstMMField" layoutX="571.0" layoutY="157.0" prefHeight="37.0" prefWidth="67.0" promptText="MM" />
+      <TextField fx:id="firstYYField" layoutX="644.0" layoutY="157.0" prefHeight="37.0" prefWidth="67.0" promptText="YY" />
+      <TextField fx:id="firstCVVField" layoutX="720.0" layoutY="157.0" prefHeight="37.0" prefWidth="221.0" promptText="CVV2" />
+      <Button fx:id="saveCardBtn" layoutX="661.0" layoutY="225.0" mnemonicParsing="false" onAction="#saveCardData" prefHeight="25.0" prefWidth="158.0" text="Spara Kortuppgifter">
          <font>
             <Font name="System Bold" size="12.0" />
          </font>
@@ -68,7 +68,7 @@
             <Font size="18.0" />
          </font>
       </Label>
-      <ChoiceBox layoutX="680.0" layoutY="391.0" prefWidth="150.0" />
+      <ChoiceBox fx:id="carcChoiceBox" layoutX="680.0" layoutY="391.0" prefWidth="150.0" />
       <TextField layoutX="572.0" layoutY="443.0" prefHeight="37.0" prefWidth="370.0" promptText="Fullständigt namn på kort" />
       <TextField layoutX="570.0" layoutY="491.0" prefHeight="37.0" prefWidth="370.0" promptText="Kortnummer" />
       <TextField layoutX="572.0" layoutY="540.0" prefHeight="37.0" prefWidth="67.0" promptText="MM" />

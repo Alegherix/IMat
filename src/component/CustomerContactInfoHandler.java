@@ -3,12 +3,15 @@ package component;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.control.Button;
+import javafx.scene.control.ChoiceBox;
 import javafx.scene.control.RadioButton;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.AnchorPane;
 import util.BillingInformation;
+import util.CreditCard;
 
 import java.io.IOException;
+import java.util.List;
 
 public class CustomerContactInfoHandler extends AnchorPane {
 
@@ -25,6 +28,15 @@ public class CustomerContactInfoHandler extends AnchorPane {
     @FXML RadioButton homeDeliveryBtn;
     @FXML RadioButton storeDeliveryButton;
 
+    @FXML TextField firstCardNameField;
+    @FXML TextField firstCardNumberField;
+    @FXML TextField firstMMField;
+    @FXML TextField firstYYField;
+    @FXML TextField firstCVVField;
+
+    @FXML
+    ChoiceBox<CreditCard> carcChoiceBox;
+
     private BillingInformation billingInformation;
 
     public CustomerContactInfoHandler() {
@@ -38,15 +50,23 @@ public class CustomerContactInfoHandler extends AnchorPane {
                 e.printStackTrace();
             }
             billingInformation = new BillingInformation().getCachedBillingInfo();
-            fillFields();
+            fillContactFields();
+            fillCCField();
+            fillChoiceBox();
     }
 
     @FXML
     public void saveCustomerData(){
-        this.getChildren().forEach(System.out::println);
+        new BillingInformation(
+                mailField.getText(), phoneField.getText(),
+                pNumField.getText(), zipState.getText(),
+                zipField.getText(), fNameField.getText(),
+                sNameField.getText(), adressField.getText(),
+                homeDeliveryBtn.selectedProperty().get())
+                .cacheBillingInfo();
     }
 
-    public void fillFields(){
+    public void fillContactFields(){
         if(billingInformation!=null){
             pNumField.setText(billingInformation.getSsn());
             fNameField.setText(billingInformation.getFirstName());
@@ -66,6 +86,41 @@ public class CustomerContactInfoHandler extends AnchorPane {
         }
     }
 
+    public void fillCCField(){
+        CreditCard cc = new CreditCard();
+        List<CreditCard> creditCards =  cc.getCachedPaymentInfo();
+        CreditCard primaryCard = creditCards.get(0);
+        firstCardNameField.setText(primaryCard.getHoldersName());
+        firstCardNumberField.setText(primaryCard.getCardNumber());
+        firstMMField.setText(String.valueOf(primaryCard.getValidMonth()));
+        firstYYField.setText(String.valueOf(primaryCard.getValidYear()));
+        firstCVVField.setText(String.valueOf(primaryCard.getVerificationCode()));
+    }
+
+    @FXML
+    public void saveCardData(){
+        System.out.println("Trying to Save CC");
+        CreditCard.CardType type = firstCardNumberField.getText().charAt(0)==5? CreditCard.CardType.MASTER_CARD : CreditCard.CardType.VISA;
+        new CreditCard(
+                type, firstCardNameField.getText(),
+                Integer.valueOf(firstMMField.getText()), Integer.valueOf(firstYYField.getText()),
+                firstCardNumberField.getText(), Integer.valueOf(firstCVVField.getText()))
+                .cachePaymentInfo();
+        System.out.println("Saved CreditCardInfo");
+    }
+
+    public void fillChoiceBox(){
+        carcChoiceBox.getItems().addAll(new CreditCard().getCachedPaymentInfo());
+    }
+
+    public boolean numberVerification(){
+        if(firstCardNumberField.getText().charAt(0)!=4 || firstCardNumberField.getText().charAt(0)!=5){
+            // Här kan man visa en text för att de är felaktigt Input
+
+            return false;
+        }
+        return true;
+    }
 
 
 }
