@@ -2,6 +2,7 @@ package util;
 
 
 import com.google.gson.Gson;
+import javafx.scene.layout.AnchorPane;
 import se.chalmers.cse.dat216.project.ShoppingItem;
 
 
@@ -10,12 +11,13 @@ import java.net.URISyntaxException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.nio.file.StandardOpenOption;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class Product {
+public class Product extends AnchorPane {
 
     private int productId;
     private String category;
@@ -105,5 +107,4 @@ public class Product {
             return Collections.emptyList();
         }
     }
-
 }

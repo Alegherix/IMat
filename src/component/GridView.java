@@ -1,11 +1,9 @@
 package component;
 
-
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.GridPane;
-
 import java.io.IOException;
 
 
@@ -24,24 +22,22 @@ public class GridView extends AnchorPane{
             e.printStackTrace();
         }
 
-
-
         fillGridPane();
-
     }
 
     public void fillGridPane() {
-        for (int i = 0; i < 4; i++) {
-            for (int j = 0; j < 10; j++) {
-                gridPane.add(getProduct(), i, j);
+        int width = 4;
+        int lenght = 100;
+        for (int i = 0; i < width; i++) {
+            for (int j = 0; j < lenght; j++) {
+                gridPane.add(new Product_item().getProduct(), i, j);
             }
         }
     }
 
-    public Product_item getProduct(){
-       return new Product_item();
-    }
+
 }
+
 
 
 
