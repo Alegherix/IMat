@@ -40,11 +40,36 @@ public class Controller implements Initializable {
         dynamicPane.setContent(new GridView());
     }
 
-
+    /**
+     * Switch to My Pages
+     */
     @FXML
     public void enableMyPage(){
-        dynamicStackPane.getChildren().clear();
-        dynamicStackPane.getChildren().add(new CustomerDataHandler());
+        CustomerDataHandler customerDataHandler = new CustomerDataHandler();
+        if(!dynamicStackPane.getChildren().contains(customerDataHandler)){
+            dynamicStackPane.getChildren().add(customerDataHandler);
+        }
+        else{
+            int index = dynamicStackPane.getChildren().indexOf(customerDataHandler);
+            dynamicStackPane.getChildren().get(index).toFront();
+        }
+
+    }
+
+    /**
+     * Switch to Product Page
+     */
+    @FXML
+    public void enableProductView(){
+        if(!dynamicStackPane.getChildren().contains(dynamicPane)){
+            GridView gridView = new GridView();
+            dynamicPane.setContent(gridView);
+        }
+        else{
+            int index = dynamicStackPane.getChildren().indexOf(dynamicPane);
+            dynamicStackPane.getChildren().get(index).toFront();
+        }
+
     }
 
 

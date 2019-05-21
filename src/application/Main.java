@@ -22,7 +22,7 @@ public class Main extends Application {
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("../resources/view/default_view3.fxml"));
         primaryStage.setTitle("Imat");
-        primaryStage.setScene(new Scene(root, 1280, 900));
+        primaryStage.setScene(new Scene(root, 1500, 950));
         primaryStage.show();
     }
 

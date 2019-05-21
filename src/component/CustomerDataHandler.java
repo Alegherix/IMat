@@ -39,8 +39,8 @@ public class CustomerDataHandler extends AnchorPane {
 
 
     private void fillOrderHistoryData(){
-//        orderHistoryHandler = new OrderHistoryHandler();
-//        currentOrderPane.getChildren().addAll(orderHistoryHandler.getOrderHistories());
+        orderHistoryHandler = new OrderHistoryHandler();
+        currentOrderPane.getChildren().addAll(orderHistoryHandler.getOrderHistories());
     }
 
 

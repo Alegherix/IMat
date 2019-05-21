@@ -19,9 +19,9 @@
 
 <fx:root fx:id="customerDataHandlingPane" prefHeight="645.0" prefWidth="1000.0" style="-fx-background-color: #808080;" type="javafx.scene.layout.AnchorPane" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <HBox layoutX="50.0" prefHeight="100.0" prefWidth="900.0">
+      <HBox layoutX="-3.0" prefHeight="100.0" prefWidth="1000.0">
          <children>
-            <ButtonBar buttonMinWidth="280.0" prefHeight="100.0" prefWidth="900.0">
+            <ButtonBar buttonMinWidth="280.0" prefHeight="98.0" prefWidth="986.0">
                <buttons>
                 <Button fx:id="customerDataBtn" mnemonicParsing="false" onAction="#customerDataPaneToFront" prefHeight="100.0" prefWidth="200.0" text="Kunduppgifter">
                      <padding>
@@ -33,7 +33,7 @@
                         <Insets bottom="2.0" />
                      </padding>
                   </Button>
-                  <Button fx:id="shoppingListBtn" mnemonicParsing="false" onAction="#shoppingListToFront" prefHeight="100.0" text="Inköpslistor">
+                  <Button fx:id="shoppingListBtn" mnemonicParsing="false" onAction="#shoppingListToFront" prefHeight="100.0" prefWidth="340.0" text="Inköpslistor">
                      <padding>
                         <Insets bottom="2.0" />
                      </padding>
