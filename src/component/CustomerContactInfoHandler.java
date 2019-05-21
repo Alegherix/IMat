@@ -1,11 +1,10 @@
 package component;
 
+import javafx.beans.value.ChangeListener;
+import javafx.beans.value.ObservableValue;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
-import javafx.scene.control.Button;
-import javafx.scene.control.ChoiceBox;
-import javafx.scene.control.RadioButton;
-import javafx.scene.control.TextField;
+import javafx.scene.control.*;
 import javafx.scene.layout.AnchorPane;
 import util.BillingInformation;
 import util.CreditCard;
@@ -34,8 +33,12 @@ public class CustomerContactInfoHandler extends AnchorPane {
     @FXML TextField firstYYField;
     @FXML TextField firstCVVField;
 
-    @FXML
-    ChoiceBox<CreditCard> carcChoiceBox;
+    @FXML ChoiceBox<CreditCard> carcChoiceBox;
+    @FXML TextField secondCardNameField;
+    @FXML TextField secondCardNumberField;
+    @FXML TextField secondMMField;
+    @FXML TextField secondYYField;
+    @FXML TextField secondCVVField;
 
     private BillingInformation billingInformation;
 
@@ -87,9 +90,11 @@ public class CustomerContactInfoHandler extends AnchorPane {
     }
 
     public void fillCCField(){
+        // Borde bytas mot att hämta kort som markerats som primary
         CreditCard cc = new CreditCard();
         List<CreditCard> creditCards =  cc.getCachedPaymentInfo();
         CreditCard primaryCard = creditCards.get(0);
+
         firstCardNameField.setText(primaryCard.getHoldersName());
         firstCardNumberField.setText(primaryCard.getCardNumber());
         firstMMField.setText(String.valueOf(primaryCard.getValidMonth()));
@@ -111,12 +116,19 @@ public class CustomerContactInfoHandler extends AnchorPane {
 
     public void fillChoiceBox(){
         carcChoiceBox.getItems().addAll(new CreditCard().getCachedPaymentInfo());
+        carcChoiceBox.getSelectionModel().selectFirst();
+        carcChoiceBox.getSelectionModel().selectedItemProperty().addListener((observable, oldValue, newValue) -> {
+            secondCardNameField.setText(newValue.getHoldersName());
+            secondCardNumberField.setText(newValue.getCardNumber());
+            secondCVVField.setText(String.valueOf(newValue.getVerificationCode()));
+            secondMMField.setText(String.valueOf(newValue.getValidMonth()));
+            secondYYField.setText(String.valueOf(newValue.getValidYear()));
+        });
     }
 
     public boolean numberVerification(){
         if(firstCardNumberField.getText().charAt(0)!=4 || firstCardNumberField.getText().charAt(0)!=5){
             // Här kan man visa en text för att de är felaktigt Input
-
             return false;
         }
         return true;

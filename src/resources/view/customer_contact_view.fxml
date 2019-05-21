@@ -69,11 +69,11 @@
          </font>
       </Label>
       <ChoiceBox fx:id="carcChoiceBox" layoutX="680.0" layoutY="391.0" prefWidth="150.0" />
-      <TextField layoutX="572.0" layoutY="443.0" prefHeight="37.0" prefWidth="370.0" promptText="Fullständigt namn på kort" />
-      <TextField layoutX="570.0" layoutY="491.0" prefHeight="37.0" prefWidth="370.0" promptText="Kortnummer" />
-      <TextField layoutX="572.0" layoutY="540.0" prefHeight="37.0" prefWidth="67.0" promptText="MM" />
-      <TextField layoutX="645.0" layoutY="540.0" prefHeight="37.0" prefWidth="67.0" promptText="YY" />
-      <TextField layoutX="721.0" layoutY="540.0" prefHeight="37.0" prefWidth="221.0" promptText="CVV2" />
+      <TextField fx:id="secondCardNameField" layoutX="572.0" layoutY="443.0" prefHeight="37.0" prefWidth="370.0" promptText="Fullständigt namn på kort" />
+      <TextField fx:id="secondCardNumberField" layoutX="570.0" layoutY="491.0" prefHeight="37.0" prefWidth="370.0" promptText="Kortnummer" />
+      <TextField fx:id="secondMMField" layoutX="572.0" layoutY="540.0" prefHeight="37.0" prefWidth="67.0" promptText="MM" />
+      <TextField fx:id="secondYYField" layoutX="645.0" layoutY="540.0" prefHeight="37.0" prefWidth="67.0" promptText="YY" />
+      <TextField fx:id="secondCVVField" layoutX="721.0" layoutY="540.0" prefHeight="37.0" prefWidth="221.0" promptText="CVV2" />
       <Button layoutX="570.0" layoutY="593.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="190.0" text="Gör till primärt Kontokort">
          <font>
             <Font name="System Bold" size="12.0" />
